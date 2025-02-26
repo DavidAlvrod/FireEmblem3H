@@ -1,0 +1,167 @@
+Items: {
+	DragonWings: {
+		DisplayName: Dragon Wings
+		Tooltip: Fly with the power of the dragons.
+	}
+
+	Dominic: {
+		DisplayName: Dominic
+		Tooltip:
+			'''
+			'Crusher Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Dominic
+			20% decreased mana cost.
+			'''
+	}
+
+	Daphnel: {
+		DisplayName: Daphnel
+		Tooltip:
+			'''
+			'Flame Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Daphnel
+			40% increased melee and ranged damage.
+			'''
+	}
+
+	Chevalier: {
+		DisplayName: Chevalier
+		Tooltip:
+			'''
+			'Snow Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Chevalier
+			15% increased melee and ranged lifesteal.
+			'''
+	}
+
+	Charon: {
+		DisplayName: Charon
+		Tooltip:
+			'''
+			'Lightning Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Charon
+			40% increased melee and ranged damage.
+			'''
+	}
+
+	Blaidydd: {
+		DisplayName: Blaidydd
+		Tooltip:
+			'''
+			'Grim Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Blaidydd
+			70% increased melee and ranged damage.
+			50% decreased melee and ranged speed.
+			'''
+	}
+
+	Fraldarius: {
+		DisplayName: Fraldarius
+		Tooltip:
+			'''
+			'Shield Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Fraldarius
+			20% increased melee and ranged damage.
+			'''
+	}
+
+	Gautier: {
+		DisplayName: Gautier
+		Tooltip:
+			'''
+			'Fissure Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Gautier
+			40% increased melee and ranged damage.
+			'''
+	}
+
+	Gloucester: {
+		DisplayName: Gloucester
+		Tooltip:
+			'''
+			'Craft Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Gloucester
+			10% increased magic damage.
+			'''
+	}
+
+	Goneril: {
+		DisplayName: Goneril
+		Tooltip:
+			'''
+			'Kalpa Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Goneril
+			25% increased melee and ranged knockback.
+			'''
+	}
+
+	Lamine: {
+		DisplayName: Lamine
+		Tooltip:
+			'''
+			'Aegis Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Lamine
+			20% decreased mana cost.
+			'''
+	}
+
+	Riegan: {
+		DisplayName: Riegan
+		Tooltip:
+			'''
+			'Star Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Riegan
+			15% increased melee and ranged lifesteal.
+			'''
+	}
+
+	TheBeast: {
+		DisplayName: The Beast
+		Tooltip:
+			'''
+			'Storm Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of the Beast
+			20% increased melee and ranged damage.
+			'''
+	}
+
+	CrestStone: {
+		DisplayName: Crest Stone
+		Tooltip:
+			'''
+			Once the heart of the legend's dragons
+			Used to craft weapons and crests.
+			'''
+	}
+
+	DragonBone: {
+		DisplayName: Dragon Bone
+		Tooltip:
+			'''
+			The bone from the legend's dragons
+			Used to craft weapons.
+			'''
+	}
+
+	DragonForge: {
+		DisplayName: Dragon Forge
+		Tooltip: Only crafting station able to use the extracts from the legendary dragons.
+	}
+
+	SwordOfCreation: {
+		DisplayName: Sword Of Creation
+		Tooltip: Sacred relic from the church of Seiros
+	}
+
+	Thunderbrand: {
+		DisplayName: Thunderbrand
+		Tooltip:
+			'''
+			Heroes relic from the house of Charon
+			If the user wields the emblem of Charon the power of this weapon will be increased.
+			'''
+	}
+}
+
+NPCs.Dragon.DisplayName: Dragon
+Projectiles.HookOfCreation.DisplayName: Hook Of Creation

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireEmblem3H", "FireEmblem3H.csproj", "{E803F77B-E99B-4946-8A0F-A0BE4C28D8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E803F77B-E99B-4946-8A0F-A0BE4C28D8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E803F77B-E99B-4946-8A0F-A0BE4C28D8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E803F77B-E99B-4946-8A0F-A0BE4C28D8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E803F77B-E99B-4946-8A0F-A0BE4C28D8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A585407-40BD-4330-9025-9D77E185CE56}
+	EndGlobalSection
+EndGlobal

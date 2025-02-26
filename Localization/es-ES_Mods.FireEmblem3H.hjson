@@ -1,0 +1,167 @@
+Items: {
+	DragonWings: {
+		DisplayName: Alas Draconidas
+		Tooltip: Vuela como los dragones.
+	}
+
+	Dominic: {
+		DisplayName: Dominic
+		Tooltip:
+			'''
+			'Se�a Dragon Triturador'
+			Llevar equipado este objeto otorga los efectos del emblema de Dominic
+			Reduccion del coste de mana 20%
+			'''
+	}
+
+	Daphnel: {
+		DisplayName: Daphnel
+		Tooltip:
+			'''
+			'Se�a Dragon Igneo'
+			Llevar equipado este objeto otorga los efectos del emblema de Daphnel
+			Incremento del da�o cuerpo a cuerpo y a distancia 40%
+			'''
+	}
+
+	Chevalier: {
+		DisplayName: Chevalier
+		Tooltip:
+			'''
+			'Se�a Dragon Nival'
+			Llevar equipado este objeto otorga los efectos del emblema de Chevalier
+			Incremento de la succi�n de vida cuerpo a cuerpo y a distancia 15%
+			'''
+	}
+
+	Charon: {
+		DisplayName: Charon
+		Tooltip:
+			'''
+			'Se�a Dragon Fulgente'
+			Llevar equipado este objeto otorga los efectos del emblema de Charon
+			Incremento del da�o cuerpo a cuerpo y a distancia 40%
+			'''
+	}
+
+	Blaidydd: {
+		DisplayName: Blaidydd
+		Tooltip:
+			'''
+			'Se�a Dragon Ominoso'
+			Llevar equipado este objeto otorga los efectos del emblema de Blaidydd
+			Incremento del da�o cuerpo a cuerpo y a distancia 70%
+			Reducci�n de la velocidad cuerpo a cuerpo y a distancia 50%
+			'''
+	}
+
+	Fraldarius: {
+		DisplayName: Fraldarius
+		Tooltip:
+			'''
+			'Se�a Dragon Escudo'
+			Llevar equipado este objeto otorga los efectos del emblema de Fraldarius
+			Incremento del da�o cuerpo a cuerpo y a distancia 20%
+			'''
+	}
+
+	Gautier: {
+		DisplayName: Gautier
+		Tooltip:
+			'''
+			'Se�a Dragon Rasgado'
+			Llevar equipado este objeto otorga los efectos del emblema de Gautier
+			Incremento del da�o cuerpo a cuerpo y a distancia 40%
+			'''
+	}
+
+	Gloucester: {
+		DisplayName: Gloucester
+		Tooltip:
+			'''
+			'Se�a Dragon Habilidoso'
+			Llevar equipado este objeto otorga los efectos del emblema de Gloucester
+			Incremento del da�o magico 10%
+			'''
+	}
+
+	Goneril: {
+		DisplayName: Goneril
+		Tooltip:
+			'''
+			'Se�a Dragon Kalpa'
+			Llevar equipado este objeto otorga los efectos del emblema de Goneril
+			Incremento del retroceso cuerpo a cuerpo y a distancia 25%.
+			'''
+	}
+
+	Lamine: {
+		DisplayName: Lamine
+		Tooltip:
+			'''
+			'Se�a Dragon Egida'
+			Llevar equipado este objeto otorga los efectos del emblema de Lamine
+			Reduccion del coste de mana 20%
+			'''
+	}
+
+	Riegan: {
+		DisplayName: Riegan
+		Tooltip:
+			'''
+			'Se�a Dragon Astral'
+			Llevar equipado este objeto otorga los efectos del emblema de Riegan
+			Incremento de la succi�n de vida cuerpo a cuerpo y a distancia 15%
+			'''
+	}
+
+	TheBeast: {
+		DisplayName: La Bestia
+		Tooltip:
+			'''
+			'Se�a Dragon Borrascoso'
+			Llevar equipado este objeto otorga los efectos del emblema de La Bestia
+			Incremento del da�o cuerpo a cuerpo y a distancia 20%
+			'''
+	}
+
+	CrestStone: {
+		DisplayName: Piedra emblema
+		Tooltip:
+			'''
+			Otrora el coraz�n de un dragon
+			Usado para crear armas y emblemas.
+			'''
+	}
+
+	DragonBone: {
+		DisplayName: Hueso de Dragon
+		Tooltip:
+			'''
+			Hueso de los dragones legendarios
+			Usado para crear armas.
+			'''
+	}
+
+	DragonForge: {
+		DisplayName: Forja Draconida
+		Tooltip: Estacion de trabajo en la que usar los restos de los dragones legendarios.
+	}
+
+	SwordOfCreation: {
+		DisplayName: Espada de la creaci�n
+		Tooltip: Reliquia sagrada de la iglesia de Seiros
+	}
+
+	Thunderbrand: {
+		DisplayName: Filo del Trueno
+		Tooltip:
+			'''
+			Reliquia de los heroes de la casa Charon
+			Si el usuario porta el emblema de Charon el poder de este arma aumentar�.
+			'''
+	}
+}
+
+NPCs.Dragon.DisplayName: Dragon
+Projectiles.HookOfCreation.DisplayName: Gancho de la creaci�n

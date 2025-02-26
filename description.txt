@@ -1,0 +1,32 @@
+Fire Emblem: Three Houses is a mod with content inspired by the game with the same name.
+
+I have added:
+Weapons:
+[i/s1:4956] 1 Melee
+[i/s1:1553] 0 Ranged
+[i/s1:3541] 0 Magic
+[i/s1:5005] 0 Summon
+
+Tools:
+[i/s1:2176] 0 Pickaxe/Drill
+[i/s1:5095] 0 Axe
+[i/s1:367] 0 Hammer
+
+Accessories:
+[i/s1:212] +10 Booster
+[i/s1:2609] 1 Wing
+[i/s1:1800] 1 Hook
+
+[i/s1:9] 2 Materials
+ 
+[i/s1:33] 1 Crafting Stations
+
+NPCs:
+[i/s1:2493] 1 Enemy
+[i/s1:43] 0 Boss
+[i/s1:267] 0 Town
+
+The 22 crest can be obtained by having the name of one crest wielder.
+The Crest of flames is only achieved this way.
+
+The mod sprites sucks because i'm not a good artist, im trying to improve.

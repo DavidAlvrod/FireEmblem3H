@@ -1,0 +1,3 @@
+displayName = Fire Emblem: Three Houses
+author = Dardiken
+version = 0.1
