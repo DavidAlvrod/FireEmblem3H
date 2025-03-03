@@ -161,6 +161,26 @@ Items: {
 			Si el usuario porta el emblema de Charon el poder de este arma aumentar�.
 			'''
 	}
+
+	Cethleann: {
+		DisplayName: Cethleann
+		Tooltip:
+			'''
+			'Seña Dragon Luminoso'
+			Llevar equipado este objeto otorga los efectos del emblema de Cethleann
+			Incremento del da�o magico 10%
+			'''
+	}
+
+	Cichol: {
+		DisplayName: Cichol
+		Tooltip:
+			'''
+			'Seña Dragon Terrestre'
+			Llevar equipado este objeto otorga los efectos del emblema de Cichol
+			Incremento del retroceso cuerpo a cuerpo y a distancia 25%.
+			'''
+	}
 }
 
 NPCs.Dragon.DisplayName: Dragon

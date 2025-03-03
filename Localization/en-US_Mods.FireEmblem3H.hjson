@@ -161,6 +161,26 @@ Items: {
 			If the user wields the emblem of Charon the power of this weapon will be increased.
 			'''
 	}
+
+	Cethleann: {
+		DisplayName: Cethleann
+		Tooltip:
+			'''
+			'Light Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Cethleann
+			15% increased magic damage.
+			'''
+	}
+
+	Cichol: {
+		DisplayName: Cichol
+		Tooltip:
+			'''
+			'Earth Dragon Sign'
+			Having this item equipped you gain the effects of the Crest of Cichol
+			25% increased melee and ranged knockback.
+			'''
+	}
 }
 
 NPCs.Dragon.DisplayName: Dragon
