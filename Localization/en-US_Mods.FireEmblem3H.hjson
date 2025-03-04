@@ -181,6 +181,16 @@ Items: {
 			25% increased melee and ranged knockback.
 			'''
 	}
+
+	grounder: {
+		DisplayName: Grounder
+		Tooltip: ""
+	}
+
+	wrathStrike: {
+		DisplayName: Wrath Strike
+		Tooltip: ""
+	}
 }
 
 NPCs.Dragon.DisplayName: Dragon

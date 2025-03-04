@@ -16,7 +16,6 @@ namespace FireEmblem3H.Content.Items.Accessory
         {
             Item.width = 35;
             Item.height = 35;
-            Item.scale = 0.5f;
 
             Item.rare = ItemRarityID.Purple;
             Item.value = 5000000;

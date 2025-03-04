@@ -181,6 +181,16 @@ Items: {
 			Incremento del retroceso cuerpo a cuerpo y a distancia 25%.
 			'''
 	}
+
+	grounder: {
+		// DisplayName: Derribar
+		// Tooltip: ""
+	}
+
+	wrathStrike: {
+		// DisplayName: Iracundia
+		// Tooltip: ""
+	}
 }
 
 NPCs.Dragon.DisplayName: Dragon

@@ -11,6 +11,7 @@ using System.IO;
 using Terraria.GameContent;
 using Terraria.Localization;
 using Terraria.ModLoader.IO;
+using FireEmblem3H.Content.Global;
 
 namespace FireEmblem3H.Content.Items.Weapons
 {
@@ -88,7 +89,21 @@ namespace FireEmblem3H.Content.Items.Weapons
                 }
                 else
                 {
-                    Item.shoot = ProjectileID.Starfury;
+                    switch (player.GetModPlayer<Jugador>().SwordArt)
+                    {
+                        case int swart
+                        when swart == 1:
+                            Item.shoot = ProjectileID.Starfury;
+                            break;
+                        case int swart
+                        when swart == 2:
+                            Item.shoot = ProjectileID.StarCannonStar;
+                            break;
+                        default:
+                            Item.shoot = 0;
+                            Item.damage = 200;
+                            break;
+                    }
                 }
             }
             else
@@ -105,7 +120,26 @@ namespace FireEmblem3H.Content.Items.Weapons
         {
             if (player.altFunctionUse == 2)
             {
-                useCount += 3;
+                if (player.GetModPlayer<Jugador>().Charon)
+                {
+                    useCount += 2;
+                }
+                else
+                {
+                    switch (player.GetModPlayer<Jugador>().SwordArt)
+                    {
+                        case int swart
+                        when swart == 1:
+                            useCount += 2;
+                            break;
+                        case int swart
+                        when swart == 2:
+                            useCount += 3;
+                            break;
+                        default:
+                            break;
+                    }
+                }
             }
 
             if (player.whoAmI != Main.myPlayer)

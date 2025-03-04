@@ -50,6 +50,12 @@ namespace FireEmblem3H.Content
         bool seiros = false;
         bool ernest = false;
 
+        int swordArt = 0;
+        int lanceArt = 0;
+        int axeArt = 0;
+        int bowArt = 0;
+        int fistArt = 0;
+
         public bool Blaiddyd { get => blaiddyd; set => blaiddyd = value; }
         public bool Charon { get => charon; set => charon = value; }
         public bool Daphnel { get => daphnel; set => daphnel = value; }
@@ -72,6 +78,12 @@ namespace FireEmblem3H.Content
         public bool Flames { get => flames; set => flames = value; }
         public bool Seiros { get => seiros; set => seiros = value; }
         public bool Ernest { get => ernest; set => ernest = value; }
+
+        public int SwordArt { get => swordArt; set => swordArt = value; }
+        public int LanceArt { get => lanceArt; set => lanceArt = value; }
+        public int AxeArt { get => axeArt; set => axeArt = value; }
+        public int BowArt { get => bowArt; set => bowArt = value; }
+        public int FistArt { get => fistArt; set => fistArt = value; }
 
         public override void ResetEffects()
         {
@@ -97,6 +109,12 @@ namespace FireEmblem3H.Content
             flames = false;
             seiros = false;
             ernest = false;
+
+            swordArt = 0;
+            lanceArt = 0;
+            axeArt = 0;
+            bowArt = 0;
+            fistArt = 0;
 
             switch (Player.name.ToLower())
             {
