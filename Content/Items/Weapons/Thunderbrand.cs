@@ -91,12 +91,12 @@ namespace FireEmblem3H.Content.Items.Weapons
                 {
                     switch (player.GetModPlayer<Jugador>().SwordArt)
                     {
-                        case int swart
-                        when swart == 1:
+                        case string swart
+                        when swart == "wrathStrike":
                             Item.shoot = ProjectileID.Starfury;
                             break;
-                        case int swart
-                        when swart == 2:
+                        case string swart
+                        when swart == "grounder":
                             Item.shoot = ProjectileID.StarCannonStar;
                             break;
                         default:
@@ -128,12 +128,12 @@ namespace FireEmblem3H.Content.Items.Weapons
                 {
                     switch (player.GetModPlayer<Jugador>().SwordArt)
                     {
-                        case int swart
-                        when swart == 1:
+                        case string swart
+                        when swart == "wrathStrike":
                             useCount += 2;
                             break;
-                        case int swart
-                        when swart == 2:
+                        case string swart
+                        when swart == "grounder":
                             useCount += 3;
                             break;
                         default:

@@ -191,6 +191,21 @@ Items: {
 		DisplayName: Wrath Strike
 		Tooltip: ""
 	}
+
+	assasinate: {
+		DisplayName: Assasinate
+		Tooltip: ""
+	}
+
+	astra: {
+		DisplayName: Astra
+		Tooltip: ""
+	}
+
+	soulblade: {
+		DisplayName: Soulblade
+		Tooltip: ""
+	}
 }
 
 NPCs.Dragon.DisplayName: Dragon

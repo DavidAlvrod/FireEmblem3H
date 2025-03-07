@@ -50,11 +50,11 @@ namespace FireEmblem3H.Content
         bool seiros = false;
         bool ernest = false;
 
-        int swordArt = 0;
-        int lanceArt = 0;
-        int axeArt = 0;
-        int bowArt = 0;
-        int fistArt = 0;
+        string swordArt = "";
+        string lanceArt = "";
+        string axeArt = "";
+        string bowArt = "";
+        string fistArt = "";
 
         public bool Blaiddyd { get => blaiddyd; set => blaiddyd = value; }
         public bool Charon { get => charon; set => charon = value; }
@@ -79,11 +79,11 @@ namespace FireEmblem3H.Content
         public bool Seiros { get => seiros; set => seiros = value; }
         public bool Ernest { get => ernest; set => ernest = value; }
 
-        public int SwordArt { get => swordArt; set => swordArt = value; }
-        public int LanceArt { get => lanceArt; set => lanceArt = value; }
-        public int AxeArt { get => axeArt; set => axeArt = value; }
-        public int BowArt { get => bowArt; set => bowArt = value; }
-        public int FistArt { get => fistArt; set => fistArt = value; }
+        public string SwordArt { get => swordArt; set => swordArt = value; }
+        public string LanceArt { get => lanceArt; set => lanceArt = value; }
+        public string AxeArt { get => axeArt; set => axeArt = value; }
+        public string BowArt { get => bowArt; set => bowArt = value; }
+        public string FistArt { get => fistArt; set => fistArt = value; }
 
         public override void ResetEffects()
         {
@@ -110,11 +110,11 @@ namespace FireEmblem3H.Content
             seiros = false;
             ernest = false;
 
-            swordArt = 0;
-            lanceArt = 0;
-            axeArt = 0;
-            bowArt = 0;
-            fistArt = 0;
+            swordArt = "";
+            lanceArt = "";
+            axeArt = "";
+            bowArt = "";
+            fistArt = "";
 
             switch (Player.name.ToLower())
             {

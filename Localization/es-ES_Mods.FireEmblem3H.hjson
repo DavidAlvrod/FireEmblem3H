@@ -183,12 +183,27 @@ Items: {
 	}
 
 	grounder: {
-		// DisplayName: Derribar
+		// DisplayName: Grounder
 		// Tooltip: ""
 	}
 
 	wrathStrike: {
-		// DisplayName: Iracundia
+		// DisplayName: Wrath Strike
+		// Tooltip: ""
+	}
+
+	assasinate: {
+		// DisplayName: Assasinate
+		// Tooltip: ""
+	}
+
+	astra: {
+		// DisplayName: Astra
+		// Tooltip: ""
+	}
+
+	soulblade: {
+		// DisplayName: Soulblade
 		// Tooltip: ""
 	}
 }

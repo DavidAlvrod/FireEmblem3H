@@ -5,6 +5,7 @@ using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using FireEmblem3H.Content.Global;
 using FireEmblem3H.Content.Items.Accessory;
+using Terraria.DataStructures;
 
 namespace FireEmblem3H.Content.Global
 {
@@ -12,15 +13,8 @@ namespace FireEmblem3H.Content.Global
     {
         public override bool CanAcceptItem(Item item, AccessorySlotType context)
         {
-            switch (item.type)
-            {
-                case int id
-                when id == ModContent.ItemType<wrathStrike>()
-                || id == ModContent.ItemType<grounder>():
-                    return true;
-                default:
-                    return false;
-            }
+            if (item.ModItem is swordArt) return true;
+            else return false;
         }
 
         public override bool DrawVanitySlot => false;
@@ -30,25 +24,18 @@ namespace FireEmblem3H.Content.Global
 
         public override void OnMouseHover(AccessorySlotType context)
         {
-            switch(context)
+            switch (context)
             {
                 case AccessorySlotType.FunctionalSlot:
-                    Main.hoverItemName = "Sword Art";
-                        break;
+                    Main.hoverItemName = "Lance Art";
+                    break;
             }
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            switch (item.type)
-            {
-                case int id
-                when id == ModContent.ItemType<wrathStrike>()
-                || id == ModContent.ItemType<grounder>():
-                    return true;
-                default:
-                    return false;
-            }
+            if (item.ModItem is swordArt) return true;
+            else return false;
         }
     }
 
@@ -56,11 +43,8 @@ namespace FireEmblem3H.Content.Global
     {
         public override bool CanAcceptItem(Item item, AccessorySlotType context)
         {
-            //if (item.type == ModContent.ItemType<aaaa>())
-            //{
-            //    return true;
-            //}
-            return false;
+            if (item.ModItem is lanceArt) return true;
+            else return false;
         }
 
         public override bool DrawVanitySlot => false;
@@ -77,17 +61,20 @@ namespace FireEmblem3H.Content.Global
                     break;
             }
         }
+
+        public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
+        {
+            if (item.ModItem is lanceArt) return true;
+            else return false;
+        }
     }
 
     public class C_AxeArtSlot : ModAccessorySlot
     {
         public override bool CanAcceptItem(Item item, AccessorySlotType context)
         {
-            //if (item.type == ModContent.ItemType<aaaa>())
-            //{
-            //    return true;
-            //}
-            return false;
+            if (item.ModItem is axeArt) return true;
+            else return false;
         }
 
         public override bool DrawVanitySlot => false;
@@ -104,17 +91,20 @@ namespace FireEmblem3H.Content.Global
                     break;
             }
         }
+
+        public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
+        {
+            if (item.ModItem is axeArt) return true;
+            else return false;
+        }
     }
 
     public class D_BowArtSlot : ModAccessorySlot
     {
         public override bool CanAcceptItem(Item item, AccessorySlotType context)
         {
-            //if (item.type == ModContent.ItemType<aaaa>())
-            //{
-            //    return true;
-            //}
-            return false;
+            if (item.ModItem is bowArt) return true;
+            else return false;
         }
 
         public override bool DrawVanitySlot => false;
@@ -131,17 +121,20 @@ namespace FireEmblem3H.Content.Global
                     break;
             }
         }
+
+        public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
+        {
+            if (item.ModItem is bowArt) return true;
+            else return false;
+        }
     }
 
     public class E_FistArt : ModAccessorySlot
     {
         public override bool CanAcceptItem(Item item, AccessorySlotType context)
         {
-            //if (item.type == ModContent.ItemType<aaaa>())
-            //{
-            //    return true;
-            //}
-            return false;
+            if (item.ModItem is fistArt) return true;
+            else return false;
         }
 
         public override bool DrawVanitySlot => false;
@@ -157,6 +150,12 @@ namespace FireEmblem3H.Content.Global
                     Main.hoverItemName = "Fist Art";
                     break;
             }
+        }
+
+        public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
+        {
+            if (item.ModItem is fistArt) return true;
+            else return false;
         }
     }
 }
